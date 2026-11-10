@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "PPP",
+    "BBB",
     "WIW",
     " S "
   ],
   "key": {
-    "P": {
-      "item": "minecraft:purple_wool"
+    "B": {
+      "item": "minecraft:black_wool"
     },
     "W": {
       "item": "minecraft:white_dye"
@@ -21,6 +21,7 @@
     }
   },
   "result": {
-    "item": "chronicled-umbrellas:purpleumbrella"
+    "id": "chronicled-umbrellas:blackumbrella",
+    "count": 1
   }
 }

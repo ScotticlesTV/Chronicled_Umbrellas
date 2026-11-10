@@ -8,7 +8,7 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:blue_wool"
     },
     "W": {
       "item": "minecraft:white_dye"
@@ -21,6 +21,7 @@
     }
   },
   "result": {
-    "item": "chronicled-umbrellas:blackumbrella"
+    "id": "chronicled-umbrellas:blueumbrella",
+    "count": 1
   }
 }

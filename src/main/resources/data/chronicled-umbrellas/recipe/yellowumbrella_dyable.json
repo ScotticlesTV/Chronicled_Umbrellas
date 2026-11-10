@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    [
+      {
+        "item": "chronicled-umbrellas:blackumbrella"
+      },
+      {
+        "item": "chronicled-umbrellas:blueumbrella"
+      },
+      {
+        "item": "chronicled-umbrellas:brownumbrella"
+      },
+      {
+        "item": "chronicled-umbrellas:greenumbrella"
+      },
+      {
+        "item": "chronicled-umbrellas:orangeumbrella"
+      },
+      {
+        "item": "chronicled-umbrellas:purpleumbrella"
+      },
+      {
+        "item": "chronicled-umbrellas:redumbrella"
+      },
+      {
+      "item": "chronicled-umbrellas:whiteumbrella"
+      }
+    ]
+  ],
+  "result": {
+    "id": "chronicled-umbrellas:yellowumbrella"
+  }
+}

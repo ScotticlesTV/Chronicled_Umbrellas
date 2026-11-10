@@ -1,6 +1,5 @@
 package net.scotticles.chronicledumbrellas.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -12,15 +11,15 @@ import net.scotticles.chronicledumbrellas.ChronicledUmbrellas;
 import net.scotticles.chronicledumbrellas.item.custom.UmbrellaItem;
 
 public class ModItems {
-    public static final Item RedUmbrella = registerItem("redumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item OrangeUmbrella = registerItem("orangeumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item YellowUmbrella = registerItem("yellowumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item GreenUmbrella = registerItem("greenumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item BlueUmbrella = registerItem("blueumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item PurpleUmbrella = registerItem("purpleumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item BlackUmbrella = registerItem("blackumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item WhiteUmbrella = registerItem("whiteumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
-    public static final Item BrownUmbrella = registerItem("brownumbrella", new UmbrellaItem(new FabricItemSettings().maxCount(1)));
+    public static final Item RedUmbrella = registerItem("redumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item OrangeUmbrella = registerItem("orangeumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item YellowUmbrella = registerItem("yellowumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item GreenUmbrella = registerItem("greenumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item BlueUmbrella = registerItem("blueumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item PurpleUmbrella = registerItem("purpleumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item BlackUmbrella = registerItem("blackumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item WhiteUmbrella = registerItem("whiteumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
+    public static final Item BrownUmbrella = registerItem("brownumbrella", new UmbrellaItem(new Item.Settings().maxCount(1)));
 
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RedUmbrella);
@@ -35,7 +34,7 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(ChronicledUmbrellas.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(ChronicledUmbrellas.MOD_ID, name), item);
     }
 
     public static void registerModItems() {

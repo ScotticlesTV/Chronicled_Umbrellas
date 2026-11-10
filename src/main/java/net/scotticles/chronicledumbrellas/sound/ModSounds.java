@@ -11,7 +11,7 @@ public class ModSounds {
     public static final SoundEvent CLOSEUMBRELLA = registerSoundEvent("closeumbrella");
 
     private static SoundEvent registerSoundEvent(String name) {
-        Identifier id = new Identifier(ChronicledUmbrellas.MOD_ID, name);
+        Identifier id = Identifier.of(ChronicledUmbrellas.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 

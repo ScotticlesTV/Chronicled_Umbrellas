@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "HHH",
+    "YYY",
     "WIW",
     " S "
   ],
   "key": {
-    "H": {
-      "item": "minecraft:white_wool"
+    "Y": {
+      "item": "minecraft:yellow_wool"
     },
     "W": {
       "item": "minecraft:white_dye"
@@ -21,6 +21,7 @@
     }
   },
   "result": {
-    "item": "chronicled-umbrellas:whiteumbrella"
+    "id": "chronicled-umbrellas:yellowumbrella",
+    "count": 1
   }
 }

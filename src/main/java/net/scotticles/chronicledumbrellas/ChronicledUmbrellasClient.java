@@ -12,7 +12,7 @@ public class ChronicledUmbrellasClient implements ClientModInitializer {
     private static void registerUmbrellaPrediate(Item item) {
         ModelPredicateProviderRegistry.register(
                 item,
-                new Identifier("usingumbrella"),
+                Identifier.of("usingumbrella"),
                 (stack, world, entity, seed) -> {
 
                     if (entity == null)

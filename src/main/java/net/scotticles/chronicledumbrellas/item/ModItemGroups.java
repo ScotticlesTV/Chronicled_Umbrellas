@@ -12,7 +12,7 @@ import net.scotticles.chronicledumbrellas.ChronicledUmbrellas;
 
 public class ModItemGroups {
     public static final ItemGroup CHRONICLED_UMBRELLAS_ITEMS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(ChronicledUmbrellas.MOD_ID, "chronicled_umbrellas_items"),
+            Identifier.of(ChronicledUmbrellas.MOD_ID, "chronicled_umbrellas_items"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.chronicled_umbrellas_items"))
                     .icon(() -> new ItemStack(ModItems.PurpleUmbrella)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RedUmbrella);

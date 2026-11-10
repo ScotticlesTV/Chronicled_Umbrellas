@@ -40,7 +40,7 @@ public class UmbrellaItem extends Item {
 
     // Set the max use time to be super high
     @Override
-    public int getMaxUseTime(ItemStack stack) {
+    public int getMaxUseTime(ItemStack stack, LivingEntity user) {
         return 72000;
     }
 

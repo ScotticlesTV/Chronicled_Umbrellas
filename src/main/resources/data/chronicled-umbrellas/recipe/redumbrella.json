@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "BBB",
+    "RRR",
     "WIW",
     " S "
   ],
   "key": {
-    "B": {
-      "item": "minecraft:brown_wool"
+    "R": {
+      "item": "minecraft:red_wool"
     },
     "W": {
       "item": "minecraft:white_dye"
@@ -21,6 +21,7 @@
     }
   },
   "result": {
-    "item": "chronicled-umbrellas:brownumbrella"
+    "id": "chronicled-umbrellas:redumbrella",
+    "count": 1
   }
 }
