@@ -5,17 +5,16 @@
 
 Chronicled Umbrellas adds 9 umbrellas in various colors to your game to make your exploration safer. Open an your umbrellas in the air to slow your fall and take no fall damage.
 
-<img alt="All Umbrella Colors Screenshot" src="https://github.com/user-attachments/assets/9e466b84-e22f-403b-8b2d-0273f3a8482b" />
+<img alt="All Umbrella Colors Screenshot" src="https://github.com/user-attachments/assets/72010445-07c9-4444-82ec-5c406610a534" />
 
 ## Features
 ### Craftable Umbrellas
 
 All umbrella variants are craftable in survivable and re-dyable to obtain the other variants without having to craft a new umbrella entirely.
-
-<img alt="Umbrella Recipes GIF" src="https://github.com/user-attachments/assets/08a9f9f8-14b4-4daa-8a07-99260ba43daf" />
+<img alt="Umbrella Recipes GIF" src="https://github.com/user-attachments/assets/675b9fe9-2789-42fc-8881-cc846aa6f925" />
 
 ### Open And Closed States
 
 Umbrellas default to a closed state, but when the player holds their use key, right-click by default, the umbrella opens and slows the player's fall, negating any fall damage they should take upon hitting the ground.
-
-<img alt="Red Umbrella - Open And Closed States" src="https://github.com/user-attachments/assets/c545d164-ac72-4b6e-b7ba-f63bde3da00d" />
+<img alt="Player Holding Closed Black Umbrella" src="https://github.com/user-attachments/assets/09c2aeee-5a95-4c40-a9f8-94db76b36187" />
+<img alt="Playing Using Black Umbrella" src="https://github.com/user-attachments/assets/2719c25d-fd23-41fb-bbb1-a5cb28df36ab" />
